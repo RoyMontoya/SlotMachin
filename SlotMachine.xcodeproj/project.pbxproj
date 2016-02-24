@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		055CDDFD1C7D7FCC00A2329C /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055CDDFC1C7D7FCC00A2329C /* Factory.swift */; };
 		05CC81E11C7C325B00596C18 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC81E01C7C325B00596C18 /* Slot.swift */; };
 		05E210B61C754AC700F15561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E210B51C754AC700F15561 /* AppDelegate.swift */; };
 		05E210B81C754AC700F15561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E210B71C754AC700F15561 /* ViewController.swift */; };
@@ -16,7 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		05CC81E01C7C325B00596C18 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slot.swift; sourceTree = "<group>"; };
+		055CDDFC1C7D7FCC00A2329C /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		05CC81E01C7C325B00596C18 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slot.swift; path = ../Slot.swift; sourceTree = "<group>"; };
 		05E210B21C754AC700F15561 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E210B51C754AC700F15561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05E210B71C754AC700F15561 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +42,6 @@
 		05E210A91C754AC700F15561 = {
 			isa = PBXGroup;
 			children = (
-				05CC81E01C7C325B00596C18 /* Slot.swift */,
 				05E210B41C754AC700F15561 /* SlotMachine */,
 				05E210B31C754AC700F15561 /* Products */,
 			);
@@ -58,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				05E210B51C754AC700F15561 /* AppDelegate.swift */,
+				05CC81E01C7C325B00596C18 /* Slot.swift */,
 				05E210B71C754AC700F15561 /* ViewController.swift */,
 				05E210B91C754AC700F15561 /* Main.storyboard */,
 				05E210BC1C754AC700F15561 /* Assets.xcassets */,
 				05E210BE1C754AC700F15561 /* LaunchScreen.storyboard */,
 				05E210C11C754AC700F15561 /* Info.plist */,
+				055CDDFC1C7D7FCC00A2329C /* Factory.swift */,
 			);
 			path = SlotMachine;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				055CDDFD1C7D7FCC00A2329C /* Factory.swift in Sources */,
 				05E210B81C754AC700F15561 /* ViewController.swift in Sources */,
 				05CC81E11C7C325B00596C18 /* Slot.swift in Sources */,
 				05E210B61C754AC700F15561 /* AppDelegate.swift in Sources */,
