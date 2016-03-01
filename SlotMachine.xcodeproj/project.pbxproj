@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		055CDDFD1C7D7FCC00A2329C /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055CDDFC1C7D7FCC00A2329C /* Factory.swift */; };
+		05BB5B721C85668C0064D895 /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05BB5B711C85668C0064D895 /* SlotBrain.swift */; };
 		05CC81E11C7C325B00596C18 /* Slot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CC81E01C7C325B00596C18 /* Slot.swift */; };
 		05E210B61C754AC700F15561 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E210B51C754AC700F15561 /* AppDelegate.swift */; };
 		05E210B81C754AC700F15561 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E210B71C754AC700F15561 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		055CDDFC1C7D7FCC00A2329C /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		05BB5B711C85668C0064D895 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 		05CC81E01C7C325B00596C18 /* Slot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Slot.swift; path = ../Slot.swift; sourceTree = "<group>"; };
 		05E210B21C754AC700F15561 /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E210B51C754AC700F15561 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				05E210B51C754AC700F15561 /* AppDelegate.swift */,
 				05CC81E01C7C325B00596C18 /* Slot.swift */,
 				05E210B71C754AC700F15561 /* ViewController.swift */,
+				05BB5B711C85668C0064D895 /* SlotBrain.swift */,
 				05E210B91C754AC700F15561 /* Main.storyboard */,
 				05E210BC1C754AC700F15561 /* Assets.xcassets */,
 				05E210BE1C754AC700F15561 /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				05E210B81C754AC700F15561 /* ViewController.swift in Sources */,
 				05CC81E11C7C325B00596C18 /* Slot.swift in Sources */,
 				05E210B61C754AC700F15561 /* AppDelegate.swift in Sources */,
+				05BB5B721C85668C0064D895 /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
